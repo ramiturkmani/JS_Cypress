@@ -1,5 +1,4 @@
 export class TGHomePage {
-
     navigate() {
         cy.visit('https://techglobal-training.com/') // Adding '?delay-new-todo=5000' to the end of the URL will delay the 'new-todo' element from appearing for 5 seconds
     }
@@ -28,5 +27,4 @@ export class TGHomePage {
         cy.get('.has-text-centered > :nth-child(3) > p').should('be.visible')
         cy.get('.has-text-centered > :nth-child(3) > p').should('have.text', expectedText)
     }
-    
 }
