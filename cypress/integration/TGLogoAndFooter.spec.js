@@ -15,11 +15,8 @@ describe('home page verification', () => {
 
     it('should be able to see TG Footer', () => {
         homePage.addressValidation('2860 S River Rd Suite 480, Des Plaines, IL 60018')
-
         homePage.facebookLinkValidation()
-
         homePage.instagramLinkValidation()
-
         homePage.copyrightValidation('© 2023 TechGlobal - All Rights Reserved')
     })
 })
